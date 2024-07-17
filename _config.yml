@@ -74,3 +74,7 @@ header_pages:
   - about.markdown
   - index.markdown
 
+future: true
+
+
+
