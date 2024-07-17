@@ -5,10 +5,13 @@ description: >-
 baseurl: "/portfolio" # This is the subpath of your site, e.g. /blog
 url: "https://hericlibong.github.io" # This is your site's domain name, e.g. jekyllrb.com
 twitter_username: jekyllrb
-github_username: https://github.com/hericlibong
+github_username: hericlibong
 
 # Build settings
 theme: minima
+
+minima:
+  skin: dark
 
 plugins:
   - jekyll-feed
