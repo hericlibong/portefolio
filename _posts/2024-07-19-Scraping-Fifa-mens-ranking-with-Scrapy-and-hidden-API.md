@@ -5,6 +5,9 @@ date: 2024-07-19 12:30:24 +0000
 categories: blog
 ---
 
+![fifa picture]({{ site.baseurl }}/media/fifa-logo.png)
+
+
 An approach to retrieving the Fifa men ranking using the hidden API of the Fifa website.
 It is also an update of an article published on [Medium in April 2023](https://medium.com/@rico69/scraping-fifa-mens-ranking-with-scrapy-and-hidden-api-7799570b7737).
 
