@@ -14,3 +14,5 @@ It is also an update of an article published on [Medium in April 2023](https://m
 This script uses [Scrapy](https://scrapy.org/) and allows you to retrieve both the current ranking and the history in just a few seconds.
 
 The Python version used is 3.12, but the program can run with at least 3.9.
+
+[Complete code](https://github.com/hericlibong/HIDDEN_API_FIFA_RANKING_MEN_SCRAPING/tree/main)
