@@ -16,3 +16,5 @@ This script uses [Scrapy](https://scrapy.org/) and allows you to retrieve both t
 The Python version used is 3.12, but the program can run with at least 3.9.
 
 [Complete code](https://github.com/hericlibong/HIDDEN_API_FIFA_RANKING_MEN_SCRAPING/tree/main)
+
+
