@@ -5,7 +5,7 @@ date: 2024-07-26 20:58:27 +0000
 categories: blog
 ---
 
-# 
+**> *A web application designed for photojournalism enthusiasts***
 
 [![World Press photo ](https://raw.githubusercontent.com/hericlibong/worldPressPhotoGalery/main/media/worldpressphoto.PNG)](ttps://github.com/hericlibong/worldPressPhotoGalery)
 
@@ -13,16 +13,16 @@ categories: blog
 
 Each week, we collect these emblematic images from the weekly selections of major media outlets. This collection is performed through scraping, using Scrapy, to gather the most compelling works of global photojournalism. Subsequently, with Django, we provide an interface where users can interact with these images, assess them, and soon, share their impressions.
 
-## Main Features
+#### ## Main Features
 Voting and Rating: Registered users can vote for their favorite images and rate them on a scale from 1 to 10.
 
-## Technology
+#### ## Technology
 This application utilizes Scrapy to collect images through spiders dedicated to each media outlet. The images are processed via Scrapy items before being sent to the database.
 
 **Scrapy**: Collects images via individual spiders.
 **Django**: The collected images are stored in a SQLite3 database and managed by a model of the framework, then displayed in the views and templates.
 
-## Supported Media
+#### ## Supported Media
 The list of supported media includes renowned international publications:
 
 - Washington Post (USA)
