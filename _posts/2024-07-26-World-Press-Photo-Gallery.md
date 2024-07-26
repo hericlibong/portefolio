@@ -5,6 +5,10 @@ date: 2024-07-26 20:58:27 +0000
 categories: blog
 ---
 
+# 
+
+[![World Press photo ](https://raw.githubusercontent.com/hericlibong/worldPressPhotoGalery/main/media/worldpressphoto.PNG)](ttps://github.com/hericlibong/worldPressPhotoGalery)
+
 [**WorldPressPhotoGallery**](https://github.com/hericlibong/worldPressPhotoGalery) is a web application designed for photojournalism enthusiasts. It allows users to view, select, and vote for the most striking news images, highlighted for their photojournalistic impact.
 
 Each week, we collect these emblematic images from the weekly selections of major media outlets. This collection is performed through scraping, using Scrapy, to gather the most compelling works of global photojournalism. Subsequently, with Django, we provide an interface where users can interact with these images, assess them, and soon, share their impressions.
@@ -21,23 +25,23 @@ This application utilizes Scrapy to collect images through spiders dedicated to 
 ## Supported Media
 The list of supported media includes renowned international publications:
 
-Washington Post (USA)
-Sydney Morning Herald (Australia)
-CNN (USA)
-Le Temps (Switzerland)
-The Week Pictures (USA)
-Guardian (UK)
-Atlantic (USA)
-Spiegel (Germany)
-Die Welt (Germany)
+- Washington Post (USA)
+- Sydney Morning Herald (Australia)
+- CNN (USA)
+- Le Temps (Switzerland)
+- The Week Pictures (USA)
+- Guardian (UK)
+- Atlantic (USA)
+- Spiegel (Germany)
+- Die Welt (Germany)
 
 These publications source images from **major international news agencies**, including:
 
-Associated Press (AP)
-Reuters
-Agence France-Presse (AFP)
-Getty Images
-European Pressphoto Agency (EPA)
+- Associated Press (AP)
+- Reuters
+- Agence France-Presse (AFP)
+- Getty Images
+- European Pressphoto Agency (EPA)
 
 See on [Github](https://github.com/hericlibong/worldPressPhotoGalery)
 <a href="https://github.com/hericlibong/worldPressPhotoGalery">
