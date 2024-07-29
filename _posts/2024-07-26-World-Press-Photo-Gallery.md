@@ -17,8 +17,10 @@ Each week, we collect these emblematic images from the weekly selections of majo
 Voting and Rating: Registered users can vote for their favorite images and rate them on a scale from 1 to 10.
 
 
+<a href="https://github.com/hericlibong/worldPressPhotoGalery">
+    <img src="https://raw.githubusercontent.com/hericlibong/portfolio/main/media/worldpressphoto_rated.PNG" alt="rated pix" width="600" height="400"/>
+</a>
 
-![worldpressphoto_rated](/media/worldpressphoto_rated.PNG)
 
 #### Technology
 This application utilizes Scrapy to collect images through spiders dedicated to each media outlet. The images are processed via Scrapy items before being sent to the database.
