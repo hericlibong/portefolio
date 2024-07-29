@@ -17,16 +17,6 @@ Each week, we collect these emblematic images from the weekly selections of majo
 Voting and Rating: Registered users can vote for their favorite images and rate them on a scale from 1 to 10.
 
 
-<a href ="https://github.com/hericlibong/worldPressPhotoGalery">
-    <img src = "media/worlpressphoto_rated.PNG" alt = "picture rated" width = "600" height = "400">
-</a>
-Image Size: The size of the image can be adjusted by specifying the width and height attributes in the HTML `<img>` tag. For example:
-
-```html
-<img src="/media/worldpressphoto_rated.PNG" alt="picture rated" width="600" height="400">
-```
-
-
 
 ![worldpressphoto_rated](/media/worldpressphoto_rated.PNG)
 
