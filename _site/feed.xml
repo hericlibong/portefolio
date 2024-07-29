@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/portfolio/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/portfolio/" rel="alternate" type="text/html" /><updated>2024-07-29T19:48:28+02:00</updated><id>http://localhost:4000/portfolio/feed.xml</id><title type="html">Heric Libong Dev Factory</title><subtitle>This is Heric Libong&apos;s personal Website.</subtitle><entry><title type="html">World Press Photo Gallery</title><link href="http://localhost:4000/portfolio/blog/2024/07/26/World-Press-Photo-Gallery.html" rel="alternate" type="text/html" title="World Press Photo Gallery" /><published>2024-07-26T22:58:27+02:00</published><updated>2024-07-26T22:58:27+02:00</updated><id>http://localhost:4000/portfolio/blog/2024/07/26/World-Press-Photo-Gallery</id><content type="html" xml:base="http://localhost:4000/portfolio/blog/2024/07/26/World-Press-Photo-Gallery.html"><![CDATA[<h3 id="-a-web-application-designed-for-photojournalism-enthusiasts"><strong>&gt; <em>A web application designed for photojournalism enthusiasts</em></strong></h3>
+
+<p><a href="ttps://github.com/hericlibong/worldPressPhotoGalery"><img src="https://raw.githubusercontent.com/hericlibong/worldPressPhotoGalery/main/media/worldpressphoto.PNG" alt="World Press photo " /></a></p>
+
+<p><a href="https://github.com/hericlibong/worldPressPhotoGalery"><strong>WorldPressPhotoGallery</strong></a> is a web application designed for photojournalism enthusiasts. It allows users to view, select, and vote for the most striking news images, highlighted for their photojournalistic impact.</p>
+
+<p>Each week, we collect these emblematic images from the weekly selections of major media outlets. This collection is performed through scraping, using Scrapy, to gather the most compelling works of global photojournalism. Subsequently, with Django, we provide an interface where users can interact with these images, assess them, and soon, share their impressions.</p>
+
+<h4 id="main-features">Main Features</h4>
+<p>Voting and Rating: Registered users can vote for their favorite images and rate them on a scale from 1 to 10.</p>
+
+<h4 id="technology">Technology</h4>
+<p>This application utilizes Scrapy to collect images through spiders dedicated to each media outlet. The images are processed via Scrapy items before being sent to the database.</p>
+
+<p><strong>Scrapy</strong>: Collects images via individual spiders.
+<strong>Django</strong>: The collected images are stored in a SQLite3 database and managed by a model of the framework, then displayed in the views and templates.</p>
+
+<h4 id="supported-media">Supported Media</h4>
+<p>The list of supported media includes renowned international publications:</p>
+
+<ul>
+  <li>Washington Post (USA)</li>
+  <li>Sydney Morning Herald (Australia)</li>
+  <li>CNN (USA)</li>
+  <li>Le Temps (Switzerland)</li>
+  <li>The Week Pictures (USA)</li>
+  <li>Guardian (UK)</li>
+  <li>Atlantic (USA)</li>
+  <li>Spiegel (Germany)</li>
+  <li>Die Welt (Germany)</li>
+</ul>
+
+<p>These publications source images from <strong>major international news agencies</strong>, including:</p>
+
+<ul>
+  <li>Associated Press (AP)</li>
+  <li>Reuters</li>
+  <li>Agence France-Presse (AFP)</li>
+  <li>Getty Images</li>
+  <li>European Pressphoto Agency (EPA)</li>
+</ul>
+
+<p>See on <a href="https://github.com/hericlibong/worldPressPhotoGalery">Github</a>
+<a href="https://github.com/hericlibong/worldPressPhotoGalery">
+    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Repository" width="50" height="50" />
+</a></p>]]></content><author><name></name></author><category term="blog" /><summary type="html"><![CDATA[&gt; A web application designed for photojournalism enthusiasts]]></summary></entry><entry><title type="html">Solve Algorithm Problems Using Python</title><link href="http://localhost:4000/portfolio/blog/2024/07/25/Solve-Algorithm-Problems-Using-Python.html" rel="alternate" type="text/html" title="Solve Algorithm Problems Using Python" /><published>2024-07-25T17:18:52+02:00</published><updated>2024-07-25T17:18:52+02:00</updated><id>http://localhost:4000/portfolio/blog/2024/07/25/Solve-Algorithm-Problems-Using-Python</id><content type="html" xml:base="http://localhost:4000/portfolio/blog/2024/07/25/Solve-Algorithm-Problems-Using-Python.html"><![CDATA[<p><a href="https://github.com/hericlibong/Solve_algorithme_problems"><img src="https://raw.githubusercontent.com/hericlibong/Solve_algorithme_problems/main/medias/algologo.png" alt="algorithm picture" /></a></p>
+
+<p><a href="https://github.com/hericlibong/Solve_algorithme_problems"><strong>Algorithm implementations</strong></a> for solving the classic <strong>Knapsack problem</strong>, applied to financial investment optimization. The challenge is to select the best combination of stocks to purchase in order to maximize profit while adhering to a fixed budget.</p>
+
+<h3 id="goals">Goals</h3>
+<p>The goal is to maximize return on investment while adhering to a budget of <strong>500 euros</strong>. The challenge is to determine the best combination of stocks to buy to achieve the highest possible profit within the shortest possible time.</p>
+
+<h2 id="algorithmic-approaches">Algorithmic Approaches</h2>
+
+<p>To address this problem, we explored two distinct algorithmic approaches:</p>
+
+<h3 id="brute-force-algorithm">Brute Force Algorithm</h3>
+
+<ul>
+  <li><strong>Description:</strong> This algorithm explores all possible combinations of purchases to identify the one that maximizes profit. Although this method guarantees an optimal solution, it is generally impractical for large datasets due to its high computational cost.</li>
+  <li><strong>Disadvantages:</strong>
+    <ul>
+      <li>High computation time</li>
+      <li>Impractical for large datasets</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="dynamic-programming-algorithm">Dynamic Programming Algorithm</h3>
+
+<ul>
+  <li><strong>Description:</strong> Dynamic programming breaks down the main problem into simpler sub-problems and uses the solutions of these sub-problems to build a global optimal solution. This method is more efficient for handling complex, large-scale problems.</li>
+  <li><strong>Advantages:</strong>
+    <ul>
+      <li>Significant reduction in computation time by avoiding unnecessary recalculations</li>
+      <li>Notable improvement in speed and efficiency compared to brute force</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="impact">Impact</h2>
+
+<ul>
+  <li><strong>Resource Optimization:</strong> Using dynamic programming allows for more effective allocation of financial resources, increasing profits while adhering to budget constraints.</li>
+  <li><strong>Efficiency:</strong> The optimized algorithms demonstrate significant performance improvements, allowing for rapid resolution of complex problems compared to traditional methods.</li>
+</ul>
+
+<p>Scripts and codes are available <a href="https://github.com/hericlibong/Solve_algorithme_problems">here</a></p>
+
+<p>See on <a href="https://github.com/hericlibong/Solve_algorithme_problems">Github</a>
+<a href="https://github.com/hericlibong/Solve_algorithme_problems">
+    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Repository" width="50" height="50" />
+</a></p>]]></content><author><name></name></author><category term="blog" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Books to scrap tracker</title><link href="http://localhost:4000/portfolio/blog/2024/07/25/Books-to-scrap-tracker.html" rel="alternate" type="text/html" title="Books to scrap tracker" /><published>2024-07-25T13:39:19+02:00</published><updated>2024-07-25T13:39:19+02:00</updated><id>http://localhost:4000/portfolio/blog/2024/07/25/Books-to-scrap-tracker</id><content type="html" xml:base="http://localhost:4000/portfolio/blog/2024/07/25/Books-to-scrap-tracker.html"><![CDATA[<p><a href="https://github.com/hericlibong/BOOKS-TO-SCRAP-TRACKER-POO/tree/main"><img src="https://raw.githubusercontent.com/hericlibong/BOOKS-TO-SCRAP-TRACKER-POO/main/medias/book_to_scrap_poo.PNG" alt="Book to Scrap Tracker" /></a></p>
+
+<p><a href="https://github.com/hericlibong/BOOKS-TO-SCRAP-TRACKER-POO/tree/main"><strong>“Books to Scrape - Price Tracker”</strong></a> is a Python program designed to extract book data from the fictional website “Books to Scrape”. Using an Object-Oriented Programming (OOP) approach, the program navigates through the site’s pages, extracts detailed information about each book, including the title, price, stock, category, user rating, and cover image URL. The extracted data is saved in CSV files organized by category, and cover images are downloaded locally.</p>
+
+<ul>
+  <li>Extraction of data for all books from the “Books to Scrape” site.</li>
+  <li>Saving the extracted data into CSV files organized by category.</li>
+  <li>Downloading the cover images of the books.</li>
+  <li>Handling connection errors and timeouts with retry attempts.</li>
+  <li>Flake8 report generation</li>
+</ul>
+
+<p>See on <a href="https://github.com/hericlibong/BOOKS-TO-SCRAP-TRACKER-POO/tree/main">Github</a>
+<a href="https://github.com/hericlibong/BOOKS-TO-SCRAP-TRACKER-POO/tree/main">
+    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Repository" width="50" height="50" />
+</a></p>]]></content><author><name></name></author><category term="blog" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Chess Game Tournament Software</title><link href="http://localhost:4000/portfolio/blog/2024/07/24/Chess-Game-Tournament-Software.html" rel="alternate" type="text/html" title="Chess Game Tournament Software" /><published>2024-07-24T13:58:35+02:00</published><updated>2024-07-24T13:58:35+02:00</updated><id>http://localhost:4000/portfolio/blog/2024/07/24/Chess-Game-Tournament-Software</id><content type="html" xml:base="http://localhost:4000/portfolio/blog/2024/07/24/Chess-Game-Tournament-Software.html"><![CDATA[<p><a href="https://github.com/hericlibong/ChessTournamentAppManagment"><img src="https://raw.githubusercontent.com/hericlibong/ChessTournamentAppManagment/main/media/chess.png" alt="Chess Tournament App Management" /></a></p>
+
+<p><a href="https://github.com/hericlibong/ChessTournamentAppManagment"><strong>Chess Game OffLine</strong></a> Software is a desktop application developed in Python designed for managing offline chess tournaments. This application allows chess tournament organizers to easily create, manage, and track their events. The software enables users to:</p>
+
+<ul>
+  <li>Create tournaments</li>
+  <li>Register players</li>
+  <li>Manage rounds</li>
+  <li>Manage players</li>
+  <li>Display results</li>
+</ul>
+
+<p><a href="https://github.com/hericlibong/ChessTournamentAppManagment"><img src="https://raw.githubusercontent.com/hericlibong/ChessTournamentAppManagment/main/media/rapport.png" alt="Chess Tournament report" /></a></p>
+
+<p>See on <a href="https://github.com/hericlibong/ChessTournamentAppManagment">Github</a>
+<a href="https://github.com/hericlibong/ChessTournamentAppManagment">
+    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Repository" width="50" height="50" />
+</a></p>]]></content><author><name></name></author><category term="blog" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Scraping Fifa mens ranking with Scrapy and hidden API</title><link href="http://localhost:4000/portfolio/blog/2024/07/19/Scraping-Fifa-mens-ranking-with-Scrapy-and-hidden-API.html" rel="alternate" type="text/html" title="Scraping Fifa mens ranking with Scrapy and hidden API" /><published>2024-07-19T14:30:24+02:00</published><updated>2024-07-19T14:30:24+02:00</updated><id>http://localhost:4000/portfolio/blog/2024/07/19/Scraping-Fifa-mens-ranking-with-Scrapy-and-hidden-API</id><content type="html" xml:base="http://localhost:4000/portfolio/blog/2024/07/19/Scraping-Fifa-mens-ranking-with-Scrapy-and-hidden-API.html"><![CDATA[<p><img src="/portfolio/media/fifa-logo.png" alt="fifa picture" /></p>
+
+<p>An approach to retrieving the Fifa men ranking using the hidden API of the Fifa website.
+It is also an update of an article published on <a href="https://medium.com/@rico69/scraping-fifa-mens-ranking-with-scrapy-and-hidden-api-7799570b7737">Medium in April 2023</a>.</p>
+
+<p>This script uses <a href="https://scrapy.org/">Scrapy</a> and allows you to retrieve both the current ranking and the history in just a few seconds.</p>
+
+<p>The Python version used is 3.12, but the program can run with at least 3.9.</p>
+
+<p><a href="https://github.com/hericlibong/HIDDEN_API_FIFA_RANKING_MEN_SCRAPING/tree/main">Complete code</a></p>]]></content><author><name></name></author><category term="blog" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/portfolio/jekyll/update/2024/07/10/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2024-07-10T09:30:52+02:00</published><updated>2024-07-10T09:30:52+02:00</updated><id>http://localhost:4000/portfolio/jekyll/update/2024/07/10/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/portfolio/jekyll/update/2024/07/10/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>Jekyll requires blog post files to be named according to the following format:</p>
+
+<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+
+<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry></feed>
