@@ -25,8 +25,8 @@ Voting and Rating: Registered users can vote for their favorite images and rate 
 #### Technology
 This application utilizes Scrapy to collect images through spiders dedicated to each media outlet. The images are processed via Scrapy items before being sent to the database.
 
-**Scrapy**: Collects images via individual spiders.
-**Django**: The collected images are stored in a SQLite3 database and managed by a model of the framework, then displayed in the views and templates.
+- **Scrapy**: Collects images via individual spiders.
+- **Django**: The collected images are stored in a SQLite3 database and managed by a model of the framework, then displayed in the views and templates.
 
 #### Supported Media
 The list of supported media includes renowned international publications:
