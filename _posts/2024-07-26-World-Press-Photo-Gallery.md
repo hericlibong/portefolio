@@ -18,7 +18,7 @@ Voting and Rating: Registered users can vote for their favorite images and rate 
 
 
 <a href="https://github.com/hericlibong/worldPressPhotoGalery">
-    <img src="https://raw.githubusercontent.com/hericlibong/portfolio/main/media/worldpressphoto_rated.PNG" alt="rated pix" width="600" height="400"/>
+    <img src="https://raw.githubusercontent.com/hericlibong/portfolio/main/media/worldpressphoto_rated.PNG" alt="rated pix"/>
 </a>
 
 
