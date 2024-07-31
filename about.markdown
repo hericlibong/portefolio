@@ -5,8 +5,9 @@ permalink: /about/
 ---
 
 
-
-<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Repository" width="50" height="50"/>
+<p align = "center">
+<img src="https://raw.githubusercontent.com/hericlibong/portfolio/main/media/avatar.jpeg" alt="avatar about me" width="250" height="250"/>
+</p>
 
 Hello and welcome to my blog,
 
