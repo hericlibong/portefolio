@@ -13,11 +13,11 @@ Hello and welcome to my blog,
 
 My name is Héric Libong.
 
-After a long career as a journalist, I decided 7 years ago to transition into data science first and then into development.
+After a long career as a journalist, I decided 7 years ago to transition into data science first and then into software development.
 
-Python is my primary programming language.
+**`Python`** is my primary programming language.
 
-I am an expert in web scraping techniques and data extraction.
+I am an expert in **`Web Scraping`** techniques and data extraction.
 
-My development environment is the Django framework.
+My development environment is the **`Django framework`**.
 
