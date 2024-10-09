@@ -5,7 +5,8 @@ date: 2024-10-10 00:58:37 +0000
 categories: blog
 ---
 
-![litrevu picture](/_site/media/litRevu_2.png)
+
+![litrevu picture](https://raw.githubusercontent.com/hericlibong/Web_Django_App_LitRevu/refs/heads/main/pictures/litRevu_2.png)
 
 LitRevu is a web application made with Django framework that allows users to request or publish reviews of books or articles. It offers three main use cases: 
 - Publish book or article reviews. 
