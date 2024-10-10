@@ -19,6 +19,9 @@ LitRevu is a web application made with Django framework that allows users to req
 - Personalized feed: Each logged-in user can see a feed ordered by publication date, containing the posts and reviews of users they follow, as well as their own publications.
 
 
-
+See on [Github](https://github.com/hericlibong/Web_Django_App_LitRevu)
+<a href="https://github.com/hericlibong/Web_Django_App_LitRevu">
+    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Repository" width="50" height="50"/>
+</a>
 
 
